@@ -37,7 +37,6 @@ export default function Form() {
 			jurosx = (montante - capitalInicial).toFixed(2);
 			porcento = ((montante/capitalInicial - 1)*100).toFixed(2);
 			aux.push({montante, jurosx, porcento});
-			//setParcela({montante, jurosx, porcento});
 		}
 		setParcela(aux);
 
@@ -78,9 +77,7 @@ export default function Form() {
 						/>
 				</div>
 			</div>
-			< Installments
-				parcela={parcela}
-			/>
+			< Installments parcela={parcela} />
 		</div>
 	)
 }
