@@ -3,15 +3,32 @@
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: flex-start;
+	align-items: center;
+
 }
 
 .cards {
 	padding: 10px;
 	margin: 10px;
-	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
 	border-radius: 10px;
+	background-color: rgb(200, 220, 245);
+	border: 1px solid rgb(9, 51, 114);
 }
 
 .cards:hover {
-	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+}
+
+.classIndex {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgb(189, 186, 212);
+	border-radius: 5px;
+}
+
+.classPorcento {
+	color: rgb(57, 17, 165);
+}
+
